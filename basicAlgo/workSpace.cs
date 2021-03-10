@@ -40,5 +40,22 @@ namespace basicAlgo
             }
             return output;
         }
+
+        public string CapFirstLetter(string input)
+        {
+            var output = "";
+            for (int i = 0; i < input.Length; i++)
+            {
+                if(i == 0 || input[i-1] == ' ')
+                {
+                    output += input[i].ToString().ToUpper();
+                }
+                else
+                {
+                    output += input[i].ToString();
+                }
+            }
+            return output;
+        }
     }
 }
