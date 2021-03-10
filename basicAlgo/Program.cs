@@ -12,8 +12,8 @@ namespace basicAlgo
         {
             workSpace workSpace = new workSpace();
 
-            //workSpace.FizzBuzz();
-            //Console.ReadLine();
+            workSpace.FizzBuzz();
+            Console.ReadLine();
 
             //var output = workSpace.ReverseAString("trial");
             //Console.WriteLine(output);
@@ -33,6 +33,7 @@ namespace basicAlgo
             //var output = workSpace.PalindromeByComp("car");
             //Console.WriteLine(output);
             //Console.ReadLine();
+
         }
     }
 }
