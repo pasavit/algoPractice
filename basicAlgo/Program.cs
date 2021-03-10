@@ -10,6 +10,7 @@ namespace basicAlgo
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
