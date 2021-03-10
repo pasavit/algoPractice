@@ -10,7 +10,22 @@ namespace basicAlgo
     {
         static void Main(string[] args)
         {
+            workSpace workSpace = new workSpace();
 
+            //workSpace.FizzBuzz();
+            //Console.ReadLine();
+
+            //var output = workSpace.ReverseAString("trial");
+            //Console.WriteLine(output);
+            //Console.ReadLine();
+
+            //var output = workSpace.CapFirstLetter("trial of cap");
+            //Console.WriteLine(output);
+            //Console.ReadLine();
+
+            var output = workSpace.CompressString("aaabbcdddd");
+            Console.WriteLine(output);
+            Console.ReadLine();
         }
     }
 }

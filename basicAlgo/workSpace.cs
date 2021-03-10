@@ -57,5 +57,30 @@ namespace basicAlgo
             }
             return output;
         }
+
+        public string CompressString(string input)
+        {
+            var output = "";
+            var count = 1;
+            for (int i = 0; i < input.Length; i++)
+            {
+                if(i == input.Length - 1)
+                {
+                    output += count;
+                    output += input[i];
+                }
+                else if(input[i] == input[i + 1])
+                {
+                    count++;
+                }
+                else
+                {
+                    output += count;
+                    output += input[i];
+                    count = 1;
+                }
+            }
+            return output;
+        }
     }
 }
