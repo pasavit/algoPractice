@@ -27,8 +27,12 @@ namespace basicAlgo
             //Console.WriteLine(output);
             //Console.ReadLine();
 
-            workSpace.PalindromeCheck("cat");
-            Console.ReadLine();
+            //workSpace.PalindromeCheck("cat");
+            //Console.ReadLine();
+
+            //var output = workSpace.PalindromeByComp("car");
+            //Console.WriteLine(output);
+            //Console.ReadLine();
         }
     }
 }

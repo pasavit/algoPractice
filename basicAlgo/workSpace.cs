@@ -95,5 +95,19 @@ namespace basicAlgo
                 Console.WriteLine("Is NOT a palindrome");
             }
         }
+
+        public bool PalindromeByComp(string input)
+        {
+            var isPalindrome = true;
+            for (int i = 0; i < input.Length/2; i++)
+            {
+                if (input[i] != input[input.Length - 1-i])
+                {
+                    isPalindrome = false;
+                    break;
+                }
+            }
+            return isPalindrome;
+        }
     }
 }
