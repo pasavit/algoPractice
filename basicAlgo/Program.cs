@@ -23,8 +23,11 @@ namespace basicAlgo
             //Console.WriteLine(output);
             //Console.ReadLine();
 
-            var output = workSpace.CompressString("aaabbcdddd");
-            Console.WriteLine(output);
+            //var output = workSpace.CompressString("aaabbcdddd");
+            //Console.WriteLine(output);
+            //Console.ReadLine();
+
+            workSpace.PalindromeCheck("cat");
             Console.ReadLine();
         }
     }

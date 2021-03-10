@@ -82,5 +82,18 @@ namespace basicAlgo
             }
             return output;
         }
+
+        public void PalindromeCheck(string input)
+        {
+            var reversed = ReverseAString(input);
+            if(input == reversed)
+            {
+                Console.WriteLine("Is a palindrome");
+            }
+            else
+            {
+                Console.WriteLine("Is NOT a palindrome");
+            }
+        }
     }
 }
