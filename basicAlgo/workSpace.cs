@@ -30,5 +30,15 @@ namespace basicAlgo
                 }
             }
         }
+
+        public string ReverseAString(string input)
+        {
+            var output = "";
+            for (int i = input.Length-1; i >= 0; i--)
+            {
+                output += input[i];
+            }
+            return output;
+        }
     }
 }
